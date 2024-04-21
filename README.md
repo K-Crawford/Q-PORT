@@ -2,7 +2,7 @@
 
 Q-PORT aims to optimize a portfolio of scholarships using quantum computing techniques provided by Qiskit. It leverages quantum algorithms such as Variational Quantum Eigensolver (VQE) and Quantum Approximate Optimization Algorithm (QAOA) to find the optimal selection of scholarships given certain constraints.
 
-Project Overview:
+##Project Overview:
 
 ∙ Data Parsing: Scholarships data is parsed from a file, extracting relevant information like due dates and amounts.
 
@@ -14,7 +14,7 @@ Project Overview:
 - VQE Optimization: Variational Quantum Eigensolver is employed to find the minimum eigenvalue of the problem Hamiltonian.
 - QAOA Optimization: Quantum Approximate Optimization Algorithm is used to solve combinatorial optimization problems by preparing an approximate ground state of a        corresponding Ising Hamiltonian.
 
-Key Components:
+##Key Components:
 
 ∙ Qiskit Libraries:
 - qiskit.circuit.library.TwoLocal: An ansatz for variational circuits used in VQE.
@@ -28,7 +28,7 @@ Key Components:
 ∙ Visualization:
 - matplotlib: Utilized for plotting the covariance matrix.
 
-Future Scope:
+##Future Scope:
 
 ∙ Integration with real quantum hardware for enhanced performance.
 

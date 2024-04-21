@@ -10,22 +10,22 @@ Project Overview:
 ∙ Portfolio Optimization: The problem is framed as a portfolio optimization task, with expected returns and covariance matrix derived from the scholarship data.
 
 ∙ Quantum Optimization Algorithms:
-    ○ VQE Optimization: Variational Quantum Eigensolver is employed to find the minimum eigenvalue of the problem Hamiltonian.
-    ○ QAOA Optimization: Quantum Approximate Optimization Algorithm is used to solve combinatorial optimization problems by preparing an approximate ground state of a        corresponding Ising Hamiltonian.
+- VQE Optimization: Variational Quantum Eigensolver is employed to find the minimum eigenvalue of the problem Hamiltonian.
+- QAOA Optimization: Quantum Approximate Optimization Algorithm is used to solve combinatorial optimization problems by preparing an approximate ground state of a        corresponding Ising Hamiltonian.
 
 Key Components:
 
 ∙ Qiskit Libraries:
-    ○ qiskit.circuit.library.TwoLocal: An ansatz for variational circuits used in VQE.
-    ○ qiskit_aer.primitives.Sampler: Sampler for executing circuits on different backends.
-    ○ qiskit_algorithms: Contains various quantum algorithms like VQE, QAOA, and SamplingVQE.
-    ○ qiskit_optimization.algorithms.MinimumEigenOptimizer: Utilized for solving minimum eigenvalue problems.
+- qiskit.circuit.library.TwoLocal: An ansatz for variational circuits used in VQE.
+- qiskit_aer.primitives.Sampler: Sampler for executing circuits on different backends.
+- qiskit_algorithms: Contains various quantum algorithms like VQE, QAOA, and SamplingVQE.
+- qiskit_optimization.algorithms.MinimumEigenOptimizer: Utilized for solving minimum eigenvalue problems.
     
 ∙ Optimization Techniques:
-        COBYLA Optimizer: Used for classical optimization within the quantum algorithms.
+- COBYLA Optimizer: Used for classical optimization within the quantum algorithms.
         
 ∙ Visualization:
-        matplotlib: Utilized for plotting the covariance matrix.
+- matplotlib: Utilized for plotting the covariance matrix.
 
 Future Scope:
 

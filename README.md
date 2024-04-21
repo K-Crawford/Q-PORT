@@ -10,7 +10,7 @@ Q-PORT aims to optimize a portfolio of scholarships using quantum computing tech
 
 ∙ Portfolio Optimization: The problem is framed as a portfolio optimization task, with expected returns and covariance matrix derived from the scholarship data.
 
-∙ Quantum Optimization Algorithms:
+### ∙ Quantum Optimization Algorithms:
 - VQE Optimization: Variational Quantum Eigensolver is employed to find the minimum eigenvalue of the problem Hamiltonian.
 - QAOA Optimization: Quantum Approximate Optimization Algorithm is used to solve combinatorial optimization problems by preparing an approximate ground state of a        corresponding Ising Hamiltonian.
 
